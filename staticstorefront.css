@@ -1,0 +1,291 @@
+
+
+
+/*header*/
+.contentWrapper{
+    margin: 2em;
+    padding: 1em;
+    background-color: rgb(214, 209, 202);
+}
+
+.main{
+    position: relative;
+    margin-top: -2em;
+    width:auto;
+    height:auto;
+    z-index: 1;
+}
+ nav ul li{
+    float:right;
+    margin-top:auto;
+    margin-right: 40px;
+    display: block;
+    list-style-type: none;
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    font-style: italic;
+}
+.topBar{
+    margin:2em;
+}
+header{
+  position: relative;
+  font-family: 'Lobster', cursive;
+}
+h1 a{
+  text-shadow: 5px 2px rgb(175, 171, 171);
+  font-size: 2em;
+  color:black;
+  z-index: 2;
+  text-decoration: none;
+}
+h1 a:hover{
+  color:black;
+  font-style: italic;
+  text-decoration: none;
+  
+}
+ 
+form.searchbar button{
+  position: relative;
+  float:right;
+  width:10%;
+  display: table;
+    margin-top: -3%;
+    background-color: rgb(184, 189, 192);
+    border: solid 1px grey;
+    padding:2.3px;
+  
+}
+form.searchbar input{
+  float: left;
+    width:30%;
+    position: relative;
+    margin-left:60%;
+    margin-top: -3%;
+    cursor: pointer;
+    padding:2px;
+}
+/*header*/
+
+
+
+/*CONTENTS*/
+.contentbar{
+  margin:2em;
+  padding:1em;
+  border: solid rgb(165, 169, 173);
+  
+}
+.content{
+  position: relative;
+    margin-top: -2em;
+    width:auto;
+    height:auto;
+    z-index: 1;
+}
+.content ul li{
+  float:left;
+  margin-right: 50px;
+  display: block;
+  list-style-type:none;
+  
+}
+.content ul li a{
+  text-shadow: 2px 2px lightgray;
+  color:black;
+  list-style-type: none;
+  text-decoration: none;
+}
+.content ul li :hover{
+  font-style: italic;
+}
+
+
+/*BANNERS*/
+.banner{
+  position:relative;
+  display: inline-block;
+}
+
+.adBanner{
+  float: left;
+  position:relative;
+  margin: 0 0.5em 2.0em 0.5em;
+  padding: 1.0em;
+  background-color: lightgrey;
+}
+
+.adBanner img{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  filter:drop-shadow(8px 10px 15px gray);
+}
+#clearance{
+  background-color: red;
+  filter: brightness(95%);
+}
+#femaleAuthor img{
+  filter: contrast (50%);
+  filter: brightness(85%);
+  
+}
+font{
+  position:absolute;
+  top: 65%;
+  left:2%;
+  color:white;
+   font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  cursor: pointer;
+}
+/*BANNERS-END*/
+
+
+/*NEW ARRIVAL BOOKS*/
+#title{
+  text-decoration: none;
+}
+#title:hover{
+  font-style: italic;
+}
+
+
+
+.mainArrivals{
+  position:relative;
+  margin: 2em;
+  padding:1em;
+  background-color: rgb(165, 169, 173);
+}
+.mainArrivals a{
+  font-family: 'Lobster', cursive;
+  margin:auto;
+ margin-top: auto;
+ display: block;
+ color: black;
+ 
+}
+.newBook{
+  margin-left: 1.5%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+}
+.newBook:hover{
+  font-style: italic;
+  text-decoration: none;
+}
+.newBook img{
+    width: 155px;
+    height: 255px;
+    margin-top:10px;
+    margin-left: 10px; 
+    margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+/*BEST SELLERS*/
+.mainBestsellers{
+    
+  margin:2em;
+  padding:1em;
+  background-color: rgb(165, 169, 173);
+}
+.bestSeller img{
+    width: 155px;
+    height: 255px;
+    margin-top:10px;
+    margin-left: 0px; 
+    margin-right: 15px;
+  vertical-align: middle;
+}
+  
+  .bestSeller{
+  margin-left: 1%;
+    vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .bestSeller:hover{
+    font-style: italic;
+    text-decoration: none;
+  }
+  .mainBestsellers a{
+    font-family: 'Lobster', cursive;
+    margin:auto;
+   margin-top: auto;
+   display: block;
+   list-style: none;
+   color:black;
+   text-shadow:5px 2px rgb(149, 158, 155);
+  }
+ 
+  #title{
+    font-size: 25px;
+    position: relative;
+    color:black;
+    margin:auto;
+  }
+
+  /*Add Buttons*/
+  #buttonright{
+    position:absolute;
+    margin-left:5%;
+    margin-top: 10%;
+    z-index: 5;
+ } 
+ #buttonleft{
+   position:absolute;
+   margin-left:-95%;
+   margin-top: 10%;
+   z-index: 5;
+ }
+ #booksbuttonright{
+  position:absolute;
+  margin-left:2%;
+  margin-top: 10%;
+  z-index: 5;
+} 
+#booksbuttonleft{
+ position:absolute;
+ margin-left:-93.5%;
+ margin-top: 10%;
+ z-index: 5;
+}
+/* End Button*/
+
+
+/*FOOTER*/
+
+   footer{
+    position: relative;
+      margin:2em;
+      padding:0.5em;
+      text-align: center;
+      background-color: rgb(223, 201, 174);
+  }
+  footer ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5%;
+  }
+  #icon{ 
+    float:left;
+    margin-top: auto;
+    display: block;
+    margin-right:10px;
+}
+  
+
+
